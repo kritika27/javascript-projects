@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background-color: #444;
+}
+
+/*Button*/
+
+#btn{
+    color:#fff;
+    background-color: transparent;
+    border:2px solid #fff;
+    font-size: 20px;
+    padding:12px;
+    margin:0 auto;
+    font-family: cursive;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:45vh;
+    cursor:pointer;  
+}
+#btn:hover{
+    opacity: 0.5;
+}
+#btn:focus{
+    outline:none;
+}
