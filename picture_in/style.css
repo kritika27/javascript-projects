@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background-color: #444;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Button*/
+
+#btn{
+    color:#fff;
+    background-color: transparent;
+    border:2px solid #fff;
+    font-size: 20px;
+    padding:12px;
+    
+    font-family: cursive;
+    
+ 
+    cursor:pointer;  
+}
+#btn:hover{
+    opacity: 0.5;
+}
+#btn:focus{
+    outline:none;
+}
