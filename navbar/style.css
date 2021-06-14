@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #444;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+.logo {
+  color: orange;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: aqua;
+  transition: all 0.5ms;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .link {
+    margin: 0.5em;
+  }
+}
