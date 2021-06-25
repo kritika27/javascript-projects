@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#modal {
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 200px;
+  position: relative;
+  top: 30%;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 10px;
+}
+#btn,
+#close {
+  cursor: pointer;
+  color: #fff;
+  background-color: #444;
+  padding: 12px;
+  margin: 0 auto;
+}
+#overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
