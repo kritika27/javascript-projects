@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  color: #444;
+}
+.title {
+  margin-top: 5vh;
+  text-align: center;
+}
+.title p {
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+.about {
+  display: flex;
+  margin: 0 auto;
+  width: 45vw;
+  border: 5px solid red;
+}
+.about {
+  padding: 10px;
+}
+.about-img,
+.info {
+  border: 2px solid blue;
+}
+.info {
+  padding: 0px 10px;
+}
+.content {
+  margin-top: 5vh;
+}
