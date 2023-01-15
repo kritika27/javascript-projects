@@ -2,15 +2,6 @@ const btn = document.getElementById("btn");
 const disp = document.getElementById("disp");
 const url = "https://api.github.com/users/kritika27";
 
-const fetchData = () => {
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', url);
-
-  xhr.onload = () => {
-    const data = JSON.parse(xhr.response());
-    console.log(data);
-  }
-}
 btn.addEventListener("click", function () {
 
   const xhr = new XMLHttpRequest();
