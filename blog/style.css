@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    color:#333;
+    font-family: 'Wix Madefor Display', sans-serif;
+  }
+  
+  nav{
+    background:#fff;
+    height:12vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding:0 4rem 0 4rem;
+  }
+  nav>h1{
+      letter-spacing: 0.5rem;
+      font-weight: 800;
+  }
+  ul{
+    list-style-type:none;
+  }
+  nav>ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav>ul>li{
+    margin:1.2rem;
+  }
+  .sidebar{
+    display:flex;
+    flex-direction:column;
+    width:15vw;
+    height:88vh;
+    order:1;
+    color:#333;
+    background-color: #fff;
+  }
+  .sidebar>ul{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+  }
+  .sidebar>ul>li{
+      margin:1rem;
+      font-size:20px;
+  }
+  .main{
+      order:2;
+      width:52vw;
+      background-color:#fff;
+      padding-top:3rem;
+      padding-left:3rem;
+  }
+  .main>p{
+      margin-bottom:1.5rem;
+  }
+  .main>h1{
+      font-size:3.7rem;
+      width:35vw;
+      line-height: 3rem;
+      font-weight: bold;
+  }
+
+  .main>img{
+      width:40vw;
+      height:28vh;
+      margin-top:2.5rem;
+  }
+  .main>ul{
+      margin-top:2rem;
+      display:flex;
+  }
+  .main>ul>li{
+      margin:1rem;
+      font-weight: bold;
+  }
+  .right-sidebar{
+    background-color:#fff;
+    /* display:flex;
+    flex-direction:column; */
+    width:38vw;
+    height:88vh;
+    order:3;
+    border-left:1px solid #ccc;
+   /* align-items:flex-end;
+   right:0;
+   position: absolute;
+    z-index: 1 !important; */
+  }
+  .container{
+      display:flex;
+  }
+
+  .box{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+      width:30vw;
+      padding-left: 6rem;
+      
+  }
+
+  .row>h3{
+    margin-top:1.2rem;
+      margin-bottom:1.2rem;
+  }
+  .row>p{
+      font-size:15px;
+      color:#444;
+      letter-spacing: 0.7px;
+  }
+ .fa-search{
+     color:#fff;
+     background-color:#333;
+     padding:13px;
+ }
