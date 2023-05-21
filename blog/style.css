@@ -57,7 +57,7 @@
   }
   .main{
       order:2;
-      width:52vw;
+      width:53vw;
       background-color:#fff;
       padding-top:3rem;
       padding-left:3rem;
@@ -67,9 +67,10 @@
   }
   .main>h1{
       font-size:3.7rem;
-      width:35vw;
+      width:39vw;
       line-height: 3rem;
-      font-weight: bold;
+      font-weight: 800;
+      letter-spacing: 0px;
   }
 
   .main>img{
